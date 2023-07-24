@@ -88,3 +88,27 @@ export const ProjectAreaWrapperColumns = styled(Flex, {
     flexDirection: "column",
   },
 });
+
+export const AboutArea = styled("div", {
+  width: "100%",
+  height: "100%",
+  display: "flex",
+  flexDirection: "row",
+  alignItems: "center",
+  "@mobile": {
+    flexDirection: "column",
+  },
+});
+
+export const AboutImg = styled("img", {
+  width: "50%",
+  display: "flex",
+  alignItems: "inherit",
+  justifyContent: "center",
+  paddingLeft: "150px",
+
+  "@mobile": {
+    paddingLeft: "0px",
+    paddingTop: "20px",
+  },
+});

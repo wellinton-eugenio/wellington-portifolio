@@ -10,6 +10,9 @@ const scaleUp = keyframes({
 export const StackCard = styled("div", {
   minWidth: "10.25rem",
   maxWidth: "10.25rem",
+  borderWidth:"2px",
+  borderStyle:"solid",
+  borderColor:"$brand1",
   borderRadius: "$1",
   padding: "1rem",
   background: "$whiteFixed",
