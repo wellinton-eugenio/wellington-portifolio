@@ -22,7 +22,10 @@ import {
   ProjectsAreaSocialMediaMessage,
   ProjectsAreaContent,
   ProjectAreaWrapperColumns,
+  AboutArea,
+  AboutImg,
 } from "./style";
+import about from "../../public/static/img/tech/about.png";
 
 
 export const Home = (): JSX.Element => {
@@ -30,6 +33,7 @@ export const Home = (): JSX.Element => {
     <main>
       <Header>
         <Container>
+          <AboutArea>
           <HeaderContent>
             <Text as="h1" type="heading1" color="grey5">
               Usando a tecnologia para conectar o mundo{" "}
@@ -49,6 +53,9 @@ export const Home = (): JSX.Element => {
               </Button>
             </HeaderButtonsArea>
           </HeaderContent>
+          <AboutImg src={about}></AboutImg>
+          </AboutArea>
+          
         </Container>
       </Header>
       <StackSection id="tecnologias">
