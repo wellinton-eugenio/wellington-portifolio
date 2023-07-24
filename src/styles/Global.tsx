@@ -51,7 +51,7 @@ export const globalStyles = globalCss({
   "*": {
     margin: 0,
     padding: 0,
-    fontFamily: "'Inter', sans-serif",
+    fontFamily: "'Tektur', cursive;",
     boxSizing: "border-box",
   },
   html: {
@@ -63,9 +63,9 @@ export const globalStyles = globalCss({
 export const GlobalStyle: React.FC<GlobalStyleProps> = ({ children }) => {
   const theme = createTheme({
     colors: {
-      brand1: "#5C63ED",
-      brand2: "#7D82F1",
-      brand3: "#BEC1F8",
+      brand1: "#009d95",
+      brand2: "#6EC1c1",
+      brand3: "#6EC1b1",
       brand4: "#E7E8FC",
       grey1: "#212529",
       grey2: "#495057",
@@ -85,8 +85,8 @@ export const GlobalStyle: React.FC<GlobalStyleProps> = ({ children }) => {
       3: "2rem",
     },
     fonts: {
-      titles: '"Lexend", sans-serif;',
-      texts: '"Inter", sans-serif',
+      titles: '"Tektur", cursive;',
+      texts: '"Tektur", cursive;',
     },
     fontSizes: {
       title1: "2.75rem",

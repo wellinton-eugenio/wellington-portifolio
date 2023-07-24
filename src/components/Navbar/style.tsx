@@ -39,7 +39,7 @@ export const LogoTipoText = styled("span", {
   fontSize: "1.25rem",
   fontWeight: 600,
   color: "$grey1",
-  fontFamily: '"IBM Plex Sans"',
+  fontFamily: '"Tektur", cursive;',
   "@mobile": {
     fontSize: "1rem",
   }
